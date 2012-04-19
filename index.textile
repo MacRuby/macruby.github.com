@@ -1,0 +1,36 @@
+---
+layout: default
+title: MacRuby
+subtitle: Ruby for the Objective-C Runtime
+---
+
+h2(grid_8 prefix_2 suffix_2). What Is MacRuby?
+
+p(grid_8 prefix_2 suffix_2). MacRuby is an implementation of Ruby 1.9 directly on top of Mac OS X core technologies such as the Objective-C runtime and garbage collector, the LLVM compiler infrastructure and the Foundation and ICU frameworks. It is the goal of MacRuby to enable the creation of full-fledged Mac OS X applications which do not sacrifice performance in order to enjoy the benefits of using Ruby.
+
+<hr class="grid_12">
+
+h2(grid_4 alpha). Get It
+
+h2(grid_4). Build It
+
+h2(grid_4 omega). Use It
+
+p(grid_4 alpha). You can install the "latest stable release":https://github.com/downloads/MacRuby/MacRuby/MacRuby%200.11.zip or, if you are feeling adventurous, you can install one of the "nightly builds":https://www.macruby.org/files/nightlies. See the wiki for "more detailed instructions":https://github.com/MacRuby/MacRuby/wiki/Setting-up-MacRuby.
+
+p(grid_4). If you'd rather build your own MacRuby, simply clone the MacRuby repository from Github and follow the instructions from the "README":https://github.com/MacRuby/MacRuby/blob/master/README.rdoc.
+
+p(grid_4 omega). After installing, MacRuby is available from the command-line as @macruby@. It also comes with project templates for use with Xcode. "Create your first application today!":https://github.com/MacRuby/MacRuby/wiki/Creating-a-simple-application
+
+
+h2(grid_8 alpha). Get Involved
+
+h2(grid_4 omega). Get In Touch
+
+p(grid_8 alpha). The best way to contribute to MacRuby is by using it to build great things! If you happen to stumble across a bug along the way, be sure to file a "bug report":https://github.com/MacRuby/MacRuby/issues. Find out "how else":https://github.com/MacRuby/MacRuby/wiki/Contributing-to-MacRuby you can contribute.
+
+<div class="grid_4 omega">
+* Mailing List: "macruby-devel":http://lists.macosforge.org/mailman/listinfo.cgi/macruby-devel
+* Twitter: "@macruby":https://twitter.com/#!/macruby
+* Freenode IRC: "#macruby":http://webchat.freenode.net?channels=macruby
+</div>
