@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>404 Not Found</title>
+    <script>
+      var oldHome = "http://www.macruby.org";
+
+      function redirectOr404(req, status) {
+        if (status == 200) {
+          document.location = oldHome + document.location.pathname;
+        }
+        else {
+          document.write("<h1>Not Found</h1><p>The requested URL " + document.location.pathname + " was not found on this server.</p>");
+        }
+      }
+
+      var client = new XMLHttpRequest();
+      client.onreadystatechange = function () {
+        if (this.readyState == 4)
+          redirectOr404(this, this.status);
+      }
+      client.open("HEAD", oldHome + document.location.pathname);
+      client.send();
+    </script>
+  </head>
+  <body></body>
+</html>
