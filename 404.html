@@ -5,22 +5,16 @@
     <script>
       var oldHome = "http://www.macruby.org";
 
-      function redirectOr404(req, status) {
-        if (status == 200) {
-          document.location = oldHome + document.location.pathname;
-        }
-        else {
-          document.write("<h1>Not Found</h1><p>The requested URL " + document.location.pathname + " was not found on this server.</p>");
-        }
+      var probe = document.createElement("script");
+      probe.onload = function() {
+        document.location = oldHome + document.location.pathname;
       }
+      probe.onerror = function() {
+        document.write("<h1>Not Found</h1><p>The requested URL " + document.location.pathname + " was not found on this server.</p>");
+      }
+      probe.src = oldHome + document.location.pathname;
 
-      var client = new XMLHttpRequest();
-      client.onreadystatechange = function () {
-        if (this.readyState == 4)
-          redirectOr404(this, this.status);
-      }
-      client.open("HEAD", oldHome + document.location.pathname);
-      client.send();
+      document.body.appendChild(probe);
     </script>
   </head>
   <body></body>
