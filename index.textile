@@ -10,6 +10,8 @@ p(grid_8 prefix_2 suffix_2). MacRuby is an implementation of Ruby 1.9 directly o
 
 <hr class="grid_12">
 
+<div class="grid_12">
+
 h2(grid_4 alpha). Get It
 
 h2(grid_4). Build It
@@ -22,15 +24,24 @@ p(grid_4). If you'd rather build your own MacRuby, simply clone the MacRuby repo
 
 p(grid_4 omega). After installing, MacRuby is available from the command-line as @macruby@. It also comes with project templates for use with Xcode. "Create your first application today!":https://github.com/MacRuby/MacRuby/wiki/Creating-a-simple-application
 
+<div class="grid_12" style="height:20px;"></div>
 
 h2(grid_8 alpha). Get Involved
 
 h2(grid_4 omega). Get In Touch
 
-p(grid_8 alpha). The best way to contribute to MacRuby is by using it to build great things! If you happen to stumble across a bug along the way, be sure to file a "bug report":https://github.com/MacRuby/MacRuby/issues. Find out "how else":https://github.com/MacRuby/MacRuby/wiki/Contributing-to-MacRuby you can contribute.
+p(grid_8 alpha). "he best way to contribute to MacRuby is by using it to build great things! If you happen to stumble across a bug along the way, be sure to file a "bug report":https://github.com/MacRuby/MacRuby/issues. Find out "how else":https://github.com/MacRuby/MacRuby/wiki/Contributing-to-MacRuby you can contribute.)
 
 <div class="grid_4 omega">
 * Mailing List: "macruby-devel":http://lists.macosforge.org/mailman/listinfo.cgi/macruby-devel
 * Twitter: "@macruby":https://twitter.com/#!/macruby
 * Freenode IRC: "#macruby":http://webchat.freenode.net?channels=macruby
 </div>
+
+</div>
+
+<hr class="grid_12"/>
+
+h2(grid_12). Looking for MacRuby on iOS?
+
+p(grid_12). We have got something for you! "RubyMotion":http://www.rubymotion.com/ is a commercial toolchain for iOS development based on MacRuby, created by the MacRuby author. Check it out!
