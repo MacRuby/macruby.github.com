@@ -35,7 +35,7 @@ h2(grid_4 omega). MacRuby on iOS?
 p(grid_4 alpha). The best way to contribute to MacRuby is by using it to build great things! If you find a bug, be sure to file a "bug report":https://github.com/MacRuby/MacRuby/issues. Want to do more? Find out "how else":https://github.com/MacRuby/MacRuby/wiki/Contributing-to-MacRuby you can contribute.
 
 <div class="grid_4">
-* Mailing List: "macruby-devel":http://lists.macosforge.org/mailman/listinfo.cgi/macruby-devel
+* Mailing List: "macruby-devel":http://lists.macosforge.org/mailman/listinfo/macruby-devel
 * Twitter: "@macruby":https://twitter.com/#!/macruby
 * Freenode IRC: "#macruby":http://webchat.freenode.net?channels=macruby
 </div>
