@@ -18,7 +18,7 @@ h2(grid_4). Build It
 
 h2(grid_4 omega). Use It
 
-p(grid_4 alpha). You can install the "latest stable release":https://github.com/downloads/MacRuby/MacRuby/MacRuby%200.12.zip or, if you are feeling adventurous, you can install one of the "nightly builds":https://macruby.macosforge.org/files/nightlies. See the wiki for "more detailed instructions":https://github.com/MacRuby/MacRuby/wiki/Setting-up-MacRuby.
+p(grid_4 alpha). You can install the "latest stable release":https://github.com/downloads/MacRuby/MacRuby/MacRuby%200.12.zip or, if you are feeling adventurous, you can install one of the "nightly builds":http://macruby.jp/files/nightlies. See the wiki for "more detailed instructions":https://github.com/MacRuby/MacRuby/wiki/Setting-up-MacRuby.
 
 p(grid_4). If you'd rather build your own MacRuby, simply clone the MacRuby repository from Github and follow the instructions from the "README":https://github.com/MacRuby/MacRuby/blob/master/README.rdoc.
 
