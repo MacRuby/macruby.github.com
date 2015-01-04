@@ -6,6 +6,8 @@ subtitle: Ruby for the Objective-C Runtime
 
 h2(grid_8 prefix_2 suffix_2). What Is MacRuby?
 
+p(grid_8 prefix_2 suffix_2). <b>Note: Due to Apple’s abandonment of the Objective-C Garbage Collector (libauto) which MacRuby relied heavily on, future development of MacRuby is on an indefinite hiatus. If you would like to develop applications for iOS and OS X please check out "RubyMotion":http://www.rubymotion.com, the spiritual successor to the MacRuby project.</b>
+
 p(grid_8 prefix_2 suffix_2). MacRuby is an implementation of Ruby 1.9 directly on top of Mac OS X core technologies such as the Objective-C runtime and garbage collector, the LLVM compiler infrastructure and the Foundation and ICU frameworks. It is the goal of MacRuby to enable the creation of full-fledged Mac OS X applications which do not sacrifice performance in order to enjoy the benefits of using Ruby.
 
 <hr class="grid_12">
